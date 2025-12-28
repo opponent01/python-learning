@@ -1,0 +1,12 @@
+my_name = "game guard"
+my_age = 21
+test1= """it's good to see you"""
+test2= """good day"""
+
+greeting= test1 + test2
+
+print(greeting)
+
+my_name_is= "hello"
+my_name_is += str(21)
+print(my_name_is)
