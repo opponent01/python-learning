@@ -13,8 +13,8 @@ print(weapon.replace("iron", "heavy"))
 print(weapon.split("n"))
 
 jointhis=("hello", "world")
-
 i_did= " how ".join(jointhis)
+
 
 print(" what ".join(jointhis))
 
