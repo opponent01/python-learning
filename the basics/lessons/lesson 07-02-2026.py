@@ -1,0 +1,19 @@
+#build a discount calculator
+
+def apply_discount(price, discount):
+    if not isinstance(price, (int,float)):
+        return "The price should be a number"
+    elif price <= 0:
+        return "The price should be greater than 0"
+    
+    if not isinstance(discount, (int,float)):
+        return "The discount should be a number"
+    elif discount < 0 or discount > 100:
+        return "The discount should be between 0 and 100"
+    
+    discount= price * (discount / 100)
+    final_price= price - discount
+    return final_price
+
+
+print(apply_discount(500,10))

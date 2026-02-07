@@ -1,6 +1,6 @@
-def pay():
-    return "nothing"
+price= 500
+discount= 10
 
-total = pay()
+print(price * (discount / 100))
 
-print(total)
+
