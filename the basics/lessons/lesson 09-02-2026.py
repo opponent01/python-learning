@@ -1,4 +1,4 @@
-#Working with Loops and Sequences
+#methods in lists
 
 #The first method we will look at is the append() method. This is used to add an item to the end of the list. 
 
