@@ -1,6 +1,2 @@
-price= 500
-discount= 10
-
-print(price * (discount / 100))
-
-
+languages3 = ['Spanish', 'English', 'Russian', 'Chinese']
+print(enumerate(languages3))
